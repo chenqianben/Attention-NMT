@@ -12,7 +12,7 @@ Note: Heavily inspired by the https://github.com/pcyin/pytorch_nmt repository
 |Additive attention          |$$e_{t,i} = = v^T (W_1 h_i + W_2 s_t)$$                              |
 |Location-Aware Attention    |$$e_{t,i} = = W_1 h_i + W_2 s_t + W_3 f_i$$                          |
 |Scaled Dot-Product Attention|$$e_{t,i} = = \frac{s_t^T h_i}{\sqrt{d}} $$                          |
-|Multi-head Attention        |$$e_{t,i} = = Concat(s_{t,1}^T h_{i,1},...,s_{t,h}^T h_{i,h}) $$     |
+|Multi-head Attention        |$$e_{t,i} = = Concat(s_{t,1}^T h_{i,1},...,s_{t,N}^T h_{i,N}) $$     |
 
 
 
